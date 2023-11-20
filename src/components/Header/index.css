@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.nav-bar-cont {
+  height: 70px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 1px solid black;
+}
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+.menu-icon {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.menu {
+  height: 50px;
+  width: 50px;
+}
+.menu-expand {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: center;
+}
+.trigger-button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  align-self: flex-end;
+}
+.items-cont {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+.content-cont {
+  margin: 0;
+  padding: 200px;
+  list-style-type: none;
+  align-self: center;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  padding: 50px;
+}
+.img-icon {
+  height: 30px;
+  width: 30px;
+}
